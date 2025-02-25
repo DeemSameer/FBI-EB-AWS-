@@ -1,24 +1,23 @@
-# Full Stack Apps on AWS Project
+The localhost URL: 
 
-You have been hired as a software engineer to develop an application that will help the FBI find missing people.  The application will upload images to the FBI cloud database hosted in AWS. This will allow the FBI to run facial recognition software on the images to detect a match. You will be developing a NodeJS server and deploying it on AWS Elastic Beanstalk. 
-You will build upon the application we've developed during the lessons in this course. You'll complete a REST API endpoint in a backend service that processes incoming image URLs.
+http://localhost:8082/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
-## Getting Started
+endpoint URL for a running elastic beanstalk deployment:
+http://fbp-app-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
-You can clone this repo to run the project locally, or navigate to the workspace in the Udacity course.
 
-## Project Instructions
+screenshoot:
+![image](https://github.com/user-attachments/assets/cd62b7cb-4ae7-45b2-9cd2-8acc788e45e0)
 
-To complete this project, you will need to:
+![image](https://github.com/user-attachments/assets/44103edd-d5e1-4c4e-9e1a-c55bd6ebcca2)
 
-* Set up node environment
-* Create a new endpoint in the server.js file
-* Deploying your system
 
-## Testing
+helper source: 
+git 
+https://github.com/jimp-dev/jimp/issues/775 codan84
+stack 
+https://stackoverflow.com/questions/31317007/get-full-file-path-in-node-js
+Daniel Kaplan + Anton Stafeyev
 
-Successful URL responses should have a 200 code. Ensure that you include error codes for the scenario that someone uploads something other than an image and for other common errors.
 
-## License
 
-[License](LICENSE.txt)
